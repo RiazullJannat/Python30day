@@ -93,3 +93,47 @@ n = a + b
 
 print(n)
 print(type(n))'''
+
+#arithmetic operators in python
+
+num1=10
+num2=2
+print("Num1 + Num2 is",num1+num2)
+print("Num1 - Num2 is",num1-num2)
+print("Num1 * Num2 is",num1*num2)
+print("Num1 / Num2 is",num1/num2)
+print("Num1 // Num2 is",num1//num2)
+print("Num1 ** Num2 is",num1**num2)
+print("Num1 % Num2 is",num1%num2)
+
+#assignment operators
+'''
+=
++=
+-=
+*= 
+/=
+
+'''
+#Comparison operators
+"""
+> grater then
+< less then
+!= not equal 
+== equal to 
+
+
+"""
+#Logical operators
+
+"""
+and  true and ture = ture, true and false =false false and false =false
+or ture or ture = ture , true or false= false, false or false =false
+not(True)=False
+not(False)=True
+"""
+#modules and pip
+
+"""pip install 'module name'
+import 'module name'
+"""
