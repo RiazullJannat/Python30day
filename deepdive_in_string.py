@@ -166,3 +166,99 @@ print(txt.isalpha())
 txt = 'company123'
 x = txt.isascii()
 print(x)
+
+# isdecimal()
+txt = '1234'
+x = txt.isdecimal()
+print(x)
+
+a = "\u0030"
+b = "\u0047"
+print()
+
+print(a.isdecimal())
+print(b.isdecimal())
+
+# isdigit()
+txt = "50800"
+print()
+print(txt.isdigit())
+
+a = "\u0030"
+b = "\u00B2"
+print()
+print(a.isdigit())
+print(b.isdigit())
+
+# isidentifier()
+tex1= "Demo"
+print(tex1.isidentifier())
+print()
+a = "MyFolder"
+b = "Demo002"
+c = "2bring"
+d = "my demo"
+
+print(a.isidentifier())
+print(b.isidentifier())
+print(c.isidentifier())
+print(d.isidentifier())
+
+# islower()
+txt = "hello world!"
+print(txt.islower())
+
+# isnumeric()
+print()
+txt = '565464'
+print(txt.isnumeric())
+
+print()
+a = "\u0030" #unicode for 0
+b = "\u00B2" #unicode for &sup2;
+c = "10km2"
+d = "-1"
+e = "1.5"
+
+print(a.isnumeric())
+print(b.isnumeric())
+print(c.isnumeric())
+print(d.isnumeric())
+print(e.isnumeric())
+
+# isspace()
+txt = " "
+print(txt.isspace())
+
+txt = "     s       "
+print()
+print(txt.isspace())
+
+# istitle()
+txt = "Hello, And Welcome To My Wrold."
+print(txt.istitle())
+print()
+a = "HELLO, AND WELCOME TO MY WORLD"
+b = "Hello"
+c = "22 Names"
+d = "This Is %'!?"
+
+print(a.istitle())
+print(b.istitle())
+print(c.istitle())
+print(d.istitle())
+
+# isupper()
+txt = "THIS IS NOW!"
+print(txt.isupper())
+
+# join()
+my_tuple = ("John", "peter", "Vicky")
+print('#'.join(my_tuple))
+
+print()
+my_dict = {"Name": "Jannat", "country": "Bangladesh"}
+sepatator = 'TEST'
+
+print(sepatator.join(my_dict))
+
